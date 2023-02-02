@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex text-black mt-[0px] w-full md:mt-[1px] bg-[#ffffff] justify-between items-center px-4 h-24 max-w-[1240px] mx-auto ">
         {/* <img className="lg:w-[3%] w-[10%] " src={Logo} alt="logo" />{" "} */}
         <img
-          className="lg:w-[20%] translate-x-[20%] w-[10%] "
+          className="lg:w-[20%] md:translate-x-[30%] translate-x-[10%] w-[50%] "
           src={logoUrl}
           alt="logo"
         />

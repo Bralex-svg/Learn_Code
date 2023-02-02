@@ -15,7 +15,7 @@ export default function HeroSection() {
               gain a better understanding of how websites and apps are designed
               and developed.
             </p>
-            <button className="border-[3px] mx-auto md:mx-0 bg-[#00C2ED] my-5 text-white -translate-y-[100%] sm:translate-y-[0] rounded-[20px] md:ml-[15%] py-2 w-[50%] md:w-[30%] md:px-[20px]">
+            <button className="bg-[#00C2ED]  text-white ml-[15%] rounded-md font-medium w-[180px]  mx-auto my-2 px-4 py-3">
               Get Started
             </button>
           </div>
@@ -23,7 +23,7 @@ export default function HeroSection() {
           {/* END OF CONTENT */}
           <div>
             <img
-              className="w-[80%] -translate-y-[20%] sm:translate-y-[0]"
+              className="w-[90%] -translate-y-[20%] sm:translate-y-[0]"
               src={bannerImg}
               alt="chicken"
             />
