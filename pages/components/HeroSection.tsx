@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
           {/* Content */}
           <div className="flex flex-col justify-center md:items-start w-full px-2 ">
-            <h1 className="text-5xl  md:ml-[15%] md:text-5xl md:w-[90%] md:text-start text-center  md:text-center py-3 w-[100%] xl font-bold text-black ">
+            <h1 className="text-4xl  md:ml-[15%] md:text-5xl md:w-[90%] md:text-start text-center  md:text-center py-3 w-[100%] xl font-bold text-black ">
               Learn To Code At The Comfort Of Your Home
             </h1>
             <p className=" md:w-[70%] -translate-y-[20%] sm:translate-y-[0] md:ml-[15%]  py-3 text-black ">
@@ -23,7 +23,7 @@ export default function HeroSection() {
           {/* END OF CONTENT */}
           <div>
             <img
-              className="w-[90%] -translate-y-[20%] sm:translate-y-[0]"
+              className="w-[100%] md:w-[90%]  translate-y-[20%] sm:translate-y-[0]"
               src={bannerImg}
               alt="chicken"
             />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const logoUrl = "/logo.png";
+import Link from "next/link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,12 +13,14 @@ const Navbar = () => {
     <>
       <div className="flex text-black mt-[0px] w-full md:mt-[1px] bg-[#ffffff] justify-between items-center px-4 h-24 max-w-[1240px] mx-auto ">
         {/* <img className="lg:w-[3%] w-[10%] " src={Logo} alt="logo" />{" "} */}
-        <img
-          className="lg:w-[20%] md:translate-x-[30%] translate-x-[10%] w-[50%] "
-          src={logoUrl}
-          alt="logo"
-        />
 
+        <Link href="/">
+          <img
+            className="lg:w-[70%] md:translate-x-[30%] translate-x-[10%] w-[50%] "
+            src={logoUrl}
+            alt="logo"
+          />
+        </Link>
         <ul className="hidden ml-[30%] text-black w-full md:flex ">
           <li className="p-4">Home</li>
           <li className="p-4">About</li>
@@ -33,11 +36,13 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed top-0 left-0 bg-[#F73D27]  w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500"
-              : "fixed left-[-100%]"
+              ? "fixed top-0 left-0 bg-[#00C2ED]   w-[60%] h-full border-r text-white border-r-gray-900 ease-in-out duration-500"
+              : "fixed left-[-100%] z-9999"
           }
         >
-          <h1 className="w-full font-bold text-3xl m-4 text-white">KFC</h1>
+          <h1 className="w-full font-bold text-3xl m-4 text-white">
+            LearnCode
+          </h1>
 
           <ul className=" md:hidden p-4 uppercase">
             <li className="p-6 border-b border-gray-600 ">ABOUT US</li>
