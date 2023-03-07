@@ -20,7 +20,7 @@ const HowTo = () => {
             <h2 className="font-bold relative md:top-[8%] text-2xl ml-[25%]">
               Sign Up
             </h2>
-            <p className="md:mt-[5%] ml-[7%]">
+            <p className="md:mt-[10%] ml-[7%]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
               at.
             </p>
@@ -37,7 +37,7 @@ const HowTo = () => {
             >
               Enroll In A Course
             </h2>
-            <p className="md:mt-[8%] ml-[7%]">
+            <p className="md:mt-[10%] ml-[7%]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
               at.
             </p>
