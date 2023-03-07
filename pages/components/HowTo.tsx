@@ -51,7 +51,7 @@ const HowTo = () => {
             <h2 className="font-bold text-2xl md:top-[10%] relative  ml-[20%]">
               Start Learning
             </h2>
-            <p className="md:mt-[8%] ml-[7%]">
+            <p className="md:mt-[10%] ml-[7%]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
               at.
             </p>
