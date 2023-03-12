@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import data from "../utils/data";
-
+import { AiFillStar } from "react-icons/ai";
 const Courses = () => {
   return (
     <>
@@ -38,7 +38,12 @@ const Courses = () => {
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Typography>{course.short_description}</Typography>
+                    <Typography>{course.short_description}</Typography>{" "}
+                    <AiFillStar className="text-yellow-300 ml-[20%] " />
+                    <AiFillStar className="text-yellow-300" />
+                    <AiFillStar className="text-yellow-300" />
+                    <AiFillStar className="text-yellow-300" />
+                    <AiFillStar className="text-yellow-300" />
                   </CardActions>
                 </Card>
               </Grid>
