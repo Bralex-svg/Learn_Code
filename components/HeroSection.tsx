@@ -10,7 +10,7 @@ export default function HeroSection() {
             <h1 className="text-4xl  md:ml-[15%] md:text-5xl md:w-[90%] md:text-start text-center  md:text-center py-3 w-[100%] xl font-bold text-black ">
               Learn To Code At The Comfort Of Your Home
             </h1>
-            <p className=" md:w-[70%] -translate-y-[20%] sm:translate-y-[0] md:ml-[15%]  py-3 text-black ">
+            <p className=" md:w-[70%] -translate-y-[5%] sm:translate-y-[0] md:ml-[15%]  py-3 text-black ">
               Learn how to code or build your skills in programming online to
               gain a better understanding of how websites and apps are designed
               and developed.

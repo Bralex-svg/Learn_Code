@@ -7,11 +7,11 @@ const HowTo = () => {
   return (
     <>
       <div className="ml-[20%] w-[70%]">
-        <h1 className="font-bold ml-[10%] md:ml-[30%] relative md:-translate-y-[150%] text-3xl">
+        <h1 className="font-bold ml-[10%] md:ml-[30%] relative md:-translate-y-[150%] text-2xl md:text-3xl">
           HOW IT WORKS?
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="border w-[80%]">
+          <div className="border mb-[20px] w-[80%]">
             <img
               className="w-[25%] relative top-[5%] ml-[30%]"
               src={Icon1}
@@ -25,7 +25,7 @@ const HowTo = () => {
               at.
             </p>
           </div>
-          <div className="bg-[#00C2ED] border w-[80%] h-[100%]">
+          <div className="bg-[#00C2ED] border w-[80%] h-[100%] ">
             <img
               className="w-[25%] relative md:top-[5%] ml-[30%]"
               src={Icon2}
@@ -42,7 +42,7 @@ const HowTo = () => {
               at.
             </p>
           </div>
-          <div className="border w-[80%]">
+          <div className="border mb-[20px] w-[80%]">
             <img
               className="w-[25%] relative md:top-[5%]  ml-[30%]"
               src={Icon3}
