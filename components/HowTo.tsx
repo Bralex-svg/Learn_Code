@@ -46,7 +46,7 @@ const HowTo = () => {
             <img
               className="w-[25%] relative md:top-[5%]  ml-[30%]"
               src={Icon3}
-              alt=""
+              alt="in in a course"
             />
             <h2 className="font-bold text-2xl md:top-[10%] relative  ml-[20%]">
               Start Learning
