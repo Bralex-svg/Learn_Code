@@ -8,7 +8,7 @@ const HowTo = () => {
     <>
       <div className="ml-[20%] w-[70%]">
         <h1 className="font-bold ml-[10%] md:ml-[30%] relative md:-translate-y-[150%] text-2xl md:text-3xl">
-          HOW IT WORKS?
+          HOW IT WORKS
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3">
           <div className="border mb-[20px] w-[80%]">
