@@ -15,7 +15,7 @@ const HowTo = () => {
             <img
               className="w-[25%] relative top-[5%] ml-[30%]"
               src={Icon1}
-              alt=""
+              alt="Sign Up icon"
             />
             <h2 className="font-bold relative md:top-[8%] text-2xl ml-[25%]">
               Sign Up
