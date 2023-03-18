@@ -12,7 +12,7 @@ const HowTo = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3">
           {/* FIRST CARD */}
-          <div className="border mb-[20px] w-[80%]">
+          <div className="border  w-[80%]">
             <img
               className="w-[25%] relative top-[5%] ml-[30%]"
               src={Icon1}
@@ -28,7 +28,7 @@ const HowTo = () => {
           </div>
 
           {/* END OF FIRST CARD */}
-          <div className="bg-[#00C2ED] border w-[80%] h-[100%] ">
+          <div className="bg-[#00C2ED]  border w-[80%] ">
             <img
               className="w-[25%] relative md:top-[5%] ml-[30%]"
               src={Icon2}
@@ -45,7 +45,7 @@ const HowTo = () => {
               at.
             </p>
           </div>
-          <div className="border mb-[20px] w-[80%]">
+          <div className="border w-[80%]">
             <img
               className="w-[25%] relative md:top-[5%]  ml-[30%]"
               src={Icon3}
