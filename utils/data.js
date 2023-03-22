@@ -4,6 +4,7 @@ const data = {
       name: "Web development course",
       image: "/website.jpeg",
       title: "Websites",
+      slug: "web-development",
       short_description: "View Curriculum",
       long_description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr",
@@ -11,7 +12,8 @@ const data = {
     {
       name: "Mobile App development course",
       image: "/mobile.jpg",
-      title: "Websites",
+      title: "Mobile Development",
+      slug: "mobile-app-development",
       short_description: "View Curriculum",
       long_description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr",
@@ -19,7 +21,8 @@ const data = {
     {
       name: "Desktop development course",
       image: "/desktop.png",
-      title: "Websites",
+      title: "desktop development",
+      slug: "desktop",
       short_description: "View Curriculum",
       long_description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr",
