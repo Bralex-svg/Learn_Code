@@ -4,7 +4,7 @@ import Image from "next/image";
 import Courses from "../components/Courses";
 import HeroSection from "../components/HeroSection";
 import HowTo from "../components/HowTo";
-
+//HOMEPAGE
 const Home: NextPage = () => {
   return (
     <div>
