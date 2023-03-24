@@ -1,5 +1,7 @@
 import { Grid, Typography, Button } from "@mui/material";
 const bannerImg = "./Banner.png";
+
+//herosection
 export default function HeroSection() {
   return (
     <>
