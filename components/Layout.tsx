@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-
+//Layout File
 interface iprops {
   children: React.ReactNode;
 }
