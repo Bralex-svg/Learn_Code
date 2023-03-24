@@ -1,3 +1,4 @@
+//COURSES COMPONET
 import {
   Grid,
   Card,
