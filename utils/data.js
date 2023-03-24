@@ -1,3 +1,5 @@
+//Will be outputing these data dynamically
+
 const data = {
   courses: [
     {
