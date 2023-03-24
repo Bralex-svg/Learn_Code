@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const logoUrl = "/logo.png";
 import Link from "next/link";
-
+//NAVBAR COMPONENT
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
