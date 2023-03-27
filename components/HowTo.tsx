@@ -2,7 +2,7 @@ import React from "react";
 const Icon1 = "/icon1.png";
 const Icon2 = "/icon2.png";
 const Icon3 = "/icon3.png";
-
+//HowTo component
 const HowTo = () => {
   return (
     <>
