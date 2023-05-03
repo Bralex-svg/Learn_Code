@@ -4,6 +4,7 @@ import Image from "next/image";
 import Courses from "../components/Courses";
 import HeroSection from "../components/HeroSection";
 import HowTo from "../components/HowTo";
+import Learn from "../components/Learn";
 //HOMEPAGE
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
         <HeroSection />
         <HowTo />
         <Courses />
+        {/* <Learn /> */}
       </main>
     </div>
   );

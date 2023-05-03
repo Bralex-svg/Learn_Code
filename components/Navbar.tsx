@@ -24,7 +24,9 @@ const Navbar = () => {
         <ul className="hidden ml-[30%] text-black w-full md:flex ">
           <li className="p-4">Home</li>
           <li className="p-4">About</li>
-          <li className="p-4">Courses</li>
+          <Link href="#courses">
+            <li className="p-4">Courses</li>
+          </Link>
           <li className="p-4">Pricing</li>
           <button className="bg-[#00C2ED]  text-white ml-8 rounded-md font-medium w-[180px]  mx-auto my-2 px-4 py-3">
             Contact

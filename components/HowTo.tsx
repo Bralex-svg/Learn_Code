@@ -2,63 +2,95 @@ import React from "react";
 const Icon1 = "/icon1.png";
 const Icon2 = "/icon2.png";
 const Icon3 = "/icon3.png";
+import {
+  Grid,
+  Card,
+  CardActionArea,
+  CardMedia,
+  CardContent,
+  Typography,
+  CardActions,
+} from "@mui/material";
 //HowTo component
 const HowTo = () => {
   return (
     <>
-      <div className="ml-[20%] w-[70%]">
-        <h1 className="font-bold ml-[10%] md:ml-[30%] relative md:-translate-y-[150%] text-2xl md:text-3xl">
-          HOW IT WORKS
+      <div>
+        <h1
+          className="text-3xl font-bold
+         sm:ml-[40%] ml-[22%] translate-y-[50%]"
+        >
+          How It Works
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          {/* FIRST CARD */}
-          <div className="border  w-[80%]">
-            <img
-              className="w-[25%] relative top-[5%] ml-[30%]"
-              src={Icon1}
-              alt="Sign Up icon"
-            />
-            <h2 className="font-bold relative md:top-[8%] text-2xl ml-[25%]">
-              Sign Up
-            </h2>
-            <p className="md:mt-[10%] ml-[7%]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              at.
-            </p>
-          </div>
-
-          {/* END OF FIRST CARD */}
-          <div className="bg-[#00C2ED]  border w-[80%] ">
-            <img
-              className="w-[25%] relative md:top-[5%] ml-[30%]"
-              src={Icon2}
-              alt=""
-            />
-            <h2
-              className="font-bold ml-[10%] text-2xl relative md:top-[10%] text-white
-            "
-            >
-              Enroll In A Course
-            </h2>
-            <p className="md:mt-[10%] ml-[7%]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              at.
-            </p>
-          </div>
-          <div className="border w-[80%]">
-            <img
-              className="w-[25%] relative md:top-[5%]  ml-[30%]"
-              src={Icon3}
-              alt="in in a course"
-            />
-            <h2 className="font-bold text-2xl md:top-[10%] relative  ml-[20%]">
-              Start Learning
-            </h2>
-            <p className="md:mt-[10%] ml-[7%]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              at.
-            </p>
-          </div>
+        <div className="sm:translate-y-[30%] translate-y-[10%]">
+          <Grid className="w-[80%] ml-[5%]  sm:ml-[10%]" container spacing={3}>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card>
+                <CardActionArea>
+                  <CardMedia
+                    className="w-[20%] translate-y-[15%] ml-[40%]"
+                    component="img"
+                    title="Sign Up"
+                    image={Icon1}
+                  ></CardMedia>
+                  <CardContent>
+                    <Typography className="font-bold ml-[35%] text-xl">
+                      Sign Up
+                    </Typography>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Beatae rerum ipsa quos quisquam eius veritatis mollitia
+                      officiis quod voluptatem! Perspiciatis.
+                    </p>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className="bg-[#00C2ED]">
+                <CardActionArea>
+                  <CardMedia
+                    className="w-[20%] translate-y-[15%] ml-[40%] "
+                    component="img"
+                    title="Sign Up"
+                    image={Icon2}
+                  ></CardMedia>
+                  <CardContent>
+                    <Typography className="font-bold ml-[20%] text-xl">
+                      Enroll In A Course
+                    </Typography>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Soluta iusto voluptatibus odit accusantium sunt, veritatis
+                      possimus esse maxime sequi. Praesentium!
+                    </p>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card>
+                <CardActionArea>
+                  <CardMedia
+                    className="w-[20%] translate-y-[15%] ml-[40%]"
+                    component="img"
+                    title="Sign Up"
+                    image={Icon3}
+                  ></CardMedia>
+                  <CardContent>
+                    <Typography className="font-bold ml-[20%] text-xl">
+                      Start Learning
+                    </Typography>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Aspernatur repellendus quidem temporibus doloribus,
+                      eligendi omnis sunt vero quis ad culpa!
+                    </p>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Grid>
+          </Grid>
         </div>
       </div>
     </>
