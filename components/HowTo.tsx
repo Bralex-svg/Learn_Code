@@ -23,20 +23,35 @@ const HowTo = () => {
           How It Works
         </h1>
         <div className="sm:translate-y-[30%] translate-y-[10%]">
-          <Grid className="w-[80%] ml-[5%]  sm:ml-[10%]" container spacing={3}>
+          <Grid
+            sx={{ width: "80%", ml: { xs: "5%", sm: "10%" } }}
+            container
+            spacing={3}
+          >
             <Grid item xs={12} sm={6} md={4}>
               <Card>
                 <CardActionArea>
                   <CardMedia
-                    className="w-[20%] translate-y-[15%] ml-[40%]"
+                    sx={{
+                      width: "20%",
+                      ml: "35%",
+                      transform: "translateY(10px)",
+                    }}
                     component="img"
                     title="Sign Up"
                     image={Icon1}
                   ></CardMedia>
                   <CardContent>
-                    <Typography className="font-bold ml-[35%] text-xl">
+                    <Typography
+                      sx={{
+                        fontWeight: "bold",
+                        marginLeft: { xs: "auto", sm: "35%" },
+                        fontSize: "20px",
+                      }}
+                    >
                       Sign Up
                     </Typography>
+
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Beatae rerum ipsa quos quisquam eius veritatis mollitia
@@ -50,15 +65,26 @@ const HowTo = () => {
               <Card className="bg-[#00C2ED]">
                 <CardActionArea>
                   <CardMedia
-                    className="w-[20%] translate-y-[15%] ml-[40%] "
+                    sx={{
+                      width: "20%",
+                      ml: "35%",
+                      transform: "translateY(10px)",
+                    }}
                     component="img"
                     title="Sign Up"
                     image={Icon2}
                   ></CardMedia>
                   <CardContent>
-                    <Typography className="font-bold ml-[20%] text-xl">
-                      Enroll In A Course
+                    <Typography
+                      sx={{
+                        fontWeight: "bold",
+                        marginLeft: { xs: "auto", sm: "27%" },
+                        fontSize: "20px",
+                      }}
+                    >
+                      Enroll in A Course
                     </Typography>
+
                     <p>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Soluta iusto voluptatibus odit accusantium sunt, veritatis
@@ -72,15 +98,26 @@ const HowTo = () => {
               <Card>
                 <CardActionArea>
                   <CardMedia
-                    className="w-[20%] translate-y-[15%] ml-[40%]"
+                    sx={{
+                      width: "20%",
+                      ml: "35%",
+                      transform: "translateY(10px)",
+                    }}
                     component="img"
                     title="Sign Up"
                     image={Icon3}
                   ></CardMedia>
                   <CardContent>
-                    <Typography className="font-bold ml-[20%] text-xl">
+                    <Typography
+                      sx={{
+                        fontWeight: "bold",
+                        marginLeft: { xs: "auto", sm: "30%" },
+                        fontSize: "20px",
+                      }}
+                    >
                       Start Learning
                     </Typography>
+
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Aspernatur repellendus quidem temporibus doloribus,
