@@ -26,8 +26,8 @@ const Courses = () => {
         <div className="sm:translate-y-[50%] translate-y-[15%]">
           <Grid
             sx={{
-              width: { sm: "80%", xs: "90%" },
-              ml: { sm: "10%", xs: "5%" },
+              width: { sm: "80%", xs: "93%" },
+              ml: { sm: "10%", xs: "3%" },
             }}
             container
             spacing={3}
