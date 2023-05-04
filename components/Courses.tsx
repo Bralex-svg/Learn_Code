@@ -24,7 +24,14 @@ const Courses = () => {
         </h1>
 
         <div className="sm:translate-y-[50%] translate-y-[15%]">
-          <Grid sx={{ width: "80%", ml: "10%" }} container spacing={3}>
+          <Grid
+            sx={{
+              width: { sm: "80%", xs: "90%" },
+              ml: { sm: "10%", xs: "5%" },
+            }}
+            container
+            spacing={3}
+          >
             {data.courses.map((course) => (
               <Grid
                 className="-ml-[5%] sm:ml-[0]"
@@ -48,7 +55,7 @@ const Courses = () => {
                         <Typography
                           sx={{
                             fontWeight: "bold",
-                            fontSize: { xs: "1rem", sm: "1.2rem" },
+                            fontSize: { xs: "1.2rem", sm: "1.2rem" },
                           }}
                         >
                           {course.name}
