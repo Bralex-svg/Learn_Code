@@ -62,7 +62,7 @@ const HowTo = () => {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card className="bg-[#00C2ED]">
+              <Card sx={{ backgroundColor: "#00C2ED" }}>
                 <CardActionArea>
                   <CardMedia
                     sx={{
