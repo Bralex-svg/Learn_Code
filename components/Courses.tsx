@@ -24,7 +24,7 @@ const Courses = () => {
         </h1>
 
         <div className="sm:translate-y-[50%] translate-y-[15%]">
-          <Grid className="w-[80%] ml-[10%]" container spacing={3}>
+          <Grid sx={{ width: "80%", ml: "10%" }} container spacing={3}>
             {data.courses.map((course) => (
               <Grid
                 className="-ml-[5%] sm:ml-[0]"
@@ -38,13 +38,19 @@ const Courses = () => {
                   <NextLink href={`/course/${course.slug}`} passHref>
                     <CardActionArea>
                       <CardMedia
-                        className="w-[95%] rounded-[3%] ml-[3%]"
+                        sx={{ width: "95%", borderRadius: "3%", ml: "3%" }}
+                        // className="w-[95%] rounded-[3%] ml-[3%]"
                         component="img"
                         title={course.title}
                         image={course.image}
                       ></CardMedia>
                       <CardContent>
-                        <Typography className="font-bold text-[1rem] sm:text-xl">
+                        <Typography
+                          sx={{
+                            fontWeight: "bold",
+                            fontSize: { xs: "1rem", sm: "1.2rem" },
+                          }}
+                        >
                           {course.name}
                         </Typography>
                       </CardContent>

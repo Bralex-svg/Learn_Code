@@ -29,7 +29,7 @@ const HowTo = () => {
             spacing={3}
           >
             <Grid item xs={12} sm={6} md={4}>
-              <Card>
+              <Card sx={{ borderRadius: "3%" }}>
                 <CardActionArea>
                   <CardMedia
                     sx={{
@@ -45,7 +45,7 @@ const HowTo = () => {
                     <Typography
                       sx={{
                         fontWeight: "bold",
-                        marginLeft: { xs: "auto", sm: "35%" },
+                        marginLeft: { xs: "27%", sm: "32%" },
                         fontSize: "20px",
                       }}
                     >
@@ -62,7 +62,7 @@ const HowTo = () => {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card sx={{ backgroundColor: "#00C2ED" }}>
+              <Card sx={{ backgroundColor: "#00C2ED", borderRadius: "3%" }}>
                 <CardActionArea>
                   <CardMedia
                     sx={{
@@ -78,7 +78,7 @@ const HowTo = () => {
                     <Typography
                       sx={{
                         fontWeight: "bold",
-                        marginLeft: { xs: "auto", sm: "27%" },
+                        marginLeft: { xs: "15%", sm: "27%" },
                         fontSize: "20px",
                       }}
                     >
@@ -95,7 +95,7 @@ const HowTo = () => {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card>
+              <Card sx={{ borderRadius: "3%" }}>
                 <CardActionArea>
                   <CardMedia
                     sx={{
@@ -111,7 +111,7 @@ const HowTo = () => {
                     <Typography
                       sx={{
                         fontWeight: "bold",
-                        marginLeft: { xs: "auto", sm: "30%" },
+                        marginLeft: { xs: "20%", sm: "30%" },
                         fontSize: "20px",
                       }}
                     >
