@@ -26,15 +26,16 @@ const Courses = () => {
         <div className="sm:translate-y-[50%] translate-y-[15%]">
           <Grid
             sx={{
-              width: { sm: "80%", xs: "93%" },
-              ml: { sm: "10%", xs: "3%" },
+              width: { sm: "82%", xs: "97%" },
+              ml: { sm: "11%" },
             }}
             container
             spacing={3}
           >
             {data.courses.map((course) => (
               <Grid
-                className="-ml-[5%] sm:ml-[0]"
+                // className="-ml-[5%] sm:ml-[0]"
+                sx={{ ml: { xs: "9%", sm: "-0.9%" } }}
                 item
                 xs={12}
                 sm={6}
