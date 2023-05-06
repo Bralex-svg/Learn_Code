@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <HeroSection />
         <HowTo />
         <Courses />
-        {/* <Learn /> */}
+        <Learn />
       </main>
     </div>
   );
