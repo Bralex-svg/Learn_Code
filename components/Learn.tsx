@@ -5,7 +5,7 @@ const one = "/one.png";
 const two = "/two.png";
 const three = "/three.png";
 const alexpic = "/alexpic.png";
-const dawood = "/dawood.png";
+const dawood = "/iddris.png";
 const beardguy = "/beardguy.png";
 const Vector1 = "/Vector1.png";
 type Props = {};
@@ -68,10 +68,11 @@ function Learn({}: Props) {
               }}
               variant="body1"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              blandit, mi at sagittis bibendum, lectus risus maximus quam, vel
-              vestibulum tortor tellus ut dolor.mi at sagittis bibendum, lectus
-              risus maximus quam, vel vestibulum tortor tellus ut dolor.
+              We offer real-time teaching and learning for our students. At
+              LearnCode, we belive putting courses online and asking student to
+              learn from them is not an effective way to learn. Our well versed
+              instructors will always be available to assit you start a carrer
+              in one of the booming industries in the world.
             </Typography>
           </Grid>
           <Grid item xs={12} sx={{ mt: { sm: "-7%", xs: "-25%" } }} md={4}>
@@ -84,9 +85,95 @@ function Learn({}: Props) {
             />
           </Grid>
         </Grid>
-        {/* <div className="-mt-[10%] ]">
-          <Image src={Vector1} width={1490} height={500} alt="wave1" />
-        </div> */}
+        <div className="-mt-[15%] ]">
+          <Image
+            className="sm:w-[110%]"
+            src={Vector1}
+            width={900}
+            height={100}
+            alt="wave1"
+          />
+        </div>
+
+        <div className="sm:-mt-[25%]">
+          <Grid container spacing={5} className="sm:w-[100%]">
+            <Grid
+              sx={{
+                transform: { sm: "translatex(20%)", xs: "translatex(10%)" },
+                mt: { sm: "-2%" },
+                width: { sm: "500%" },
+              }}
+              item
+              xs={8}
+              md={4}
+            >
+              {/* <img src={dawood} alt="dawood" className="sm:w-[180%]" /> */}
+              <Image
+                className="w-[80%] sm:mt- sm:w-[120%]"
+                src={dawood}
+                alt="Image"
+                width={980}
+                height={900}
+              />{" "}
+            </Grid>
+            <Grid
+              sx={{
+                mt: {
+                  sm: "3%",
+
+                  transform: { xs: "translatex(-20%)" },
+                },
+              }}
+              item
+              xs={12}
+              md={4}
+            >
+              <Typography
+                sx={{
+                  color: "black",
+                  fontWeight: "bold",
+                  fontSize: { sm: "2rem", xs: "1.5rem" },
+                  ml: { xs: "20%", sm: "10%" },
+                }}
+                variant="h5"
+              >
+                Lots Of Hands On Projects
+              </Typography>
+              <Typography
+                sx={{
+                  color: "black",
+                  mt: { sm: "2%" },
+                  fontSize: { xs: "0.9rem" },
+                  width: { xs: "90%" },
+                  ml: { xs: "8%", sm: "10%" },
+                }}
+                variant="body1"
+              >
+                We offer real-time teaching and learning for our students. At
+                LearnCode, we belive putting courses online and asking student
+                to learn from them is not an effective way to learn. Our well
+                versed instructors will always be available to assit you start a
+                carrer in one of the booming industries in the world.
+              </Typography>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sx={{
+                mt: { sm: "4%", xs: "-25%", ml: { sm: "20%" } },
+              }}
+              md={4}
+            >
+              <Image
+                className="w-[30%] sm:w-[17%] sm:ml-[30%]"
+                src={two}
+                alt="Image"
+                width={100}
+                height={100}
+              />
+            </Grid>
+          </Grid>
+        </div>
       </div>
     </>
   );
